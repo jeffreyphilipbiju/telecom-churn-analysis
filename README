@@ -1,0 +1,46 @@
+# 📊 Telecom Customer Churn Analysis
+
+## 📌 Overview
+Customer churn is a critical issue for telecom companies, as retaining customers is far more cost-effective than acquiring new ones.  
+This project analyzes data from **7,032 customers with 21 features** to uncover churn patterns, build predictive models, and generate actionable business insights.  
+An **interactive Power BI dashboard** was also developed for easy exploration of churn trends.
+
+---
+
+## 🔍 What I Did
+- **Data Cleaning & Preprocessing**  
+  - Handled missing values, performed categorical encoding, and standardized features.
+
+- **Exploratory Data Analysis (EDA)**  
+  - Analyzed customer demographics, contract types, payment methods, and service usage.  
+  - Visualized churn distribution → **26% churned vs 74% retained**.
+
+- **Predictive Modeling**  
+  - Built and evaluated machine learning models:  
+    - Logistic Regression → **AUC: 0.8457**  
+    - Random Forest → **AUC: 0.8217**
+
+- **Dashboard Development**  
+  - Designed an interactive **Power BI dashboard** showing churn by demographics, services, and contracts.
+
+---
+
+## 📈 Key Insights
+- Customers with **month-to-month contracts** are more likely to churn.  
+- **Electronic check** payment users show the highest churn rate.  
+- Customers with **tenure < 12 months** have a strong churn tendency.  
+- Higher **monthly charges** increase churn probability.  
+
+**Business Recommendations:**  
+✔ Introduce loyalty programs to increase customer tenure  
+✔ Offer incentives for switching to long-term contracts  
+✔ Improve digital payment experiences to reduce drop-offs  
+
+---
+
+## 🖼️ Dashboard
+An interactive Power BI dashboard was created to visualize churn trends and customer segments effectively.
+
+---
+
+✍️ *Project by Jeffrey Philip Biju*  
